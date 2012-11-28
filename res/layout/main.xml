@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <ScrollView android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical"
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:gravity="center_horizontal"
+                >
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example #1"
+                    android:id="@+id/framelayout_ex1"
+                    android:onClick="onClick"
+                    />
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example #2"
+                    android:id="@+id/framelayout_ex2"
+                    android:onClick="onClick"
+                    />
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example #3"
+                    android:id="@+id/framelayout_ex3"
+                    android:onClick="setExample"
+                    />
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example #4 - measureAllChildren"
+                    android:id="@+id/framelayout_ex4"
+                    android:onClick="onClick"
+                    />
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example #5 - foreground и foregroundGravity"
+                    android:id="@+id/framelayout_ex5_menu"
+                    android:onClick="onClick"
+                    />
+            <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Example #6 - FrameLayout programmatically"
+                    android:id="@+id/framelayout_ex6"
+                    android:onClick="setExample"
+                    />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
